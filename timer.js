@@ -3,10 +3,11 @@ const audio = new Audio("./st.mp3");
 const $timer = document.getElementById("timer");
 let time_remaining = 1600;
 
-$timer.addEventListener("click", ()=>
+$timer.addEventListener("click", function _linster () 
 {
 	timer();
 	backgroundColorAnimation();
+	$timer.removeEventListener("click", _linster);
 });
 
 function timer ()
