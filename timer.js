@@ -1,5 +1,6 @@
 "use strict";
 const audio = new Audio("./st.mp3");
+audio.volume = 0.32;
 const $timer = document.getElementById("timer");
 let time_remaining = 1600;
 
