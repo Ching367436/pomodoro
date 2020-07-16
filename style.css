@@ -6,7 +6,7 @@ body {
 #timer {
 	cursor: pointer;
 	margin: 0;
-	font-size: 17vw;
+	font-size: 10vw;
 	text-align: center;
 	position: fixed;
 	top: 50%;
